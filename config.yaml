@@ -1,0 +1,20 @@
+alaska_account:
+  username: "YOUR_MILEAGEPLAN_NUMBER"
+  password: "YOUR_PASSWORD"
+
+email:
+  sender: "YOUR_GMAIL@gmail.com"
+  app_password: "YOUR_APP_PASSWORD"
+  recipient: "YOUR_GMAIL@gmail.com"
+
+defaults:
+  threshold_miles: 85000
+  cabin: "business"
+
+headless: true
+
+routes:
+  - origin: "TPE"
+    destination: "SEA"
+    threshold_miles: 85000
+    dates: ["2026-07-07","2026-07-08","2026-07-09","2026-07-10"]
