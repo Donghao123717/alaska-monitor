@@ -1,0 +1,12 @@
+config.yaml
+session_storage
+monitor.log
+cron.log
+login_failed.png
+login_error.png
+debug_*.png
+debug_*.html
+debug_*.txt
+monitor.pid
+__pycache__/
+*.pyc
